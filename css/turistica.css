@@ -1,0 +1,421 @@
+/*Stylesheet by elgunvis http://www.kricit.co.uk/elgunvis*/
+
+/*General info*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+  font-family: "Times";
+  src: url("../fonts/Times.eot");
+  src: url("../fonts/Times.eot?#iefix") format("embedded opentype"),
+   url("../fonts/Times.woff") format("woff"),
+   url("../fonts/Times.ttf") format("truetype"),
+   url("../fonts/Times.svg#Chalet") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+body {
+
+	background: #4E6585;
+	font-family: "Times", Helvetica, Verdana;
+	font-size: 1em;
+	text-align: center;
+	color: #000;
+}
+
+
+/*Page*/
+
+
+#page {
+	background: #3C4F69;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	width: 960px;
+}
+
+header h1,  h2 {
+	display: inline-block;
+	margin: 0.50em;
+	text-align: left;
+	width: 50%;
+	vertical-align: middle;
+}
+
+h1 {
+	color: #7CA5DE;
+	text-align: center;
+}
+
+h2 {
+	text-align: right;
+	width: 40%;
+}
+
+
+h5 {
+	width: 80%;
+}
+
+img {
+	max-width: 100%;
+}
+
+h4 {
+	color: #FFF;
+	font-size: 1.5em;
+	margin: 0.25em auto;
+	text-align: center;
+	/*text-shadow: 5px 5px 10px rgba(255,255,255,0.5);*/
+}
+
+p#cuadros {
+	font-size: 18px;
+}
+
+p#cuadros1 {
+	font-size: 18px;
+	text-align: center;
+}
+
+header {
+	background: -webkit-linear-gradient(#3C4F69, #4E6585);
+	background: -o-linear-gradient(#3C4F69, #4E6585);
+	background: -moz-linear-gradient(#3C4F69, #4E6585);
+	background: -ms-linear-gradient(#3C4F69, #4E6585);
+	background: linear-gradient(#3C4F69, #4E6585);
+}
+
+
+article#texto {
+	background: #4E6585;
+	/*border-radius: 0.5em;*/
+	display: inline-block;
+	font-size: 1em;
+	margin: 1em;
+	max-width: 1024px;
+	min-height: 20px;
+	padding: 0.25em;
+	text-align: left;
+	vertical-align: top;
+	width: 44%;
+}
+
+article#inicio {
+	background: #4E6585;
+	/*border-radius: 0.5em;*/
+	display: inline-block;
+	font-size: 1em;
+	margin: 1em;
+	max-width: 1024px;
+	/*min-height: 20px;
+	padding: 0.25em;*/
+	text-align: center;
+	/*vertical-align: top;
+	width: 65%;*/
+}
+
+
+section#principal1 {
+	background: #3C4F69;
+	border-radius: 0.5em;
+	display: block;
+	margin: 0.25em auto;
+	max-width: 1024px;
+	min-height: 20px;
+	padding: 0.25em;
+	text-align: center;
+	vertical-align: top;
+	width: 95%;	
+}
+
+section#cuerpo {
+	background: #3C4F69;
+	border-radius: 0.5em;
+	display: block;
+	margin: 0.15em auto;
+	max-width: 1024px;
+	min-height: 20px;
+	padding: 0.25em;
+	text-align: center;
+	vertical-align: top;
+	width: 90%;	
+}
+
+section#politica {
+	background: #dddddd;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.15em auto;
+	max-width: 1024px;
+	min-height: 20px;
+	padding: 0.25em;
+	text-align: left;
+	vertical-align: top;
+	width: 95%;	
+}
+
+article#galeria-inicio {
+	border-radius: 0.5em;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+	width: 95%;
+}
+
+
+
+#conte {
+	height: 28px;
+	overflow: hidden;
+	background-color: #3C4F69;
+}
+
+#contede {
+	color: #FFF;
+	font-size: 1.5em;
+	-webkit-animation-name: cintaInformativa;
+	-webkit-animation-duration: 30s;
+	-moz-animation-name: cintaInformativa;
+	-moz-animation-duration: 30s;
+	-ms-animation-name: cintaInformativa;
+	-ms-animation-duration: 30s;
+	-o-animation-name: cintaInformativa;
+	-o-animation-duration: 30s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-ms-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+}
+
+fieldset {
+	border: .2em solid #4E6585;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+
+nav {
+	font-size: 1.2em;
+	text-align: center;
+	width: 100%;
+
+}
+
+
+nav ul{
+	list-style: none;
+
+}
+
+
+nav li {
+	display: inline-block;
+	padding: 0.3em;
+	vertical-align: top;
+}
+
+
+nav a {
+	background: #4E6585;
+	border: 0.1em solid #7CA5DE;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	color: #FFF;
+	display: block;
+	font-family: "Times", Helvetica, Verdana;
+    font-size: .8em;
+	/*font-weight: bold;*/
+    padding: 0.5em;
+    text-decoration: none;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+
+nav a:hover {
+	background: #F7D704;
+	border: 0.1em solido #CCC;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	box-shadow: 5px 0px 10px #999;
+	color: #000;
+	-ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;	
+}
+
+.clsImagen{
+	background: #fff;
+	border: solid 1px #222;
+	box-shadow: 0px 0px 10px #222;
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin: 10px;
+}
+	.clsImagen img{
+		border-radius: 5px;
+	}
+	.clsImagen .clsDescripcion{
+		background: #fff;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		/* colocamos la capa abajo del contenedor (para que no se vea) */
+		top: 400px;
+		/* inicialmente la descripcion va a estar rotada 90 grados*/
+		-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+						   transform: rotate(90deg);
+		/* definimos las transiciones */
+		-webkit-transition: all 1s ease-in;
+			-moz-transition: all 1s ease-in;
+				-o-transition: all 1s ease-in;
+					-ms-transform: all 1s ease-in;
+						   transition: all 1s ease-in;
+		/* la opacidad inicial sera cero */
+		opacity: 0;
+		border-radius: 5px;
+	}
+		.clsImagen .clsDescripcion *{
+			padding: 10px;
+		}
+	.clsImagen:hover .clsDescripcion{
+		/* rotamos la descripcion a cero grados */
+		-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+						   transform: rotate(0deg);
+		/* colocamos su opacidad en 90% */
+		opacity: .9;
+		/* subimos la capa completamente */
+		top: 0;
+	}
+
+.clsImagenInicio{
+	background: #000;
+	border: solid 1px #222;
+	box-shadow: 0px 0px 10px #222;
+	border-radius: 5px;
+	width: 580px;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin: 10px;
+}
+	.clsImagenInicio img{
+		border-radius: 5px;
+	}
+	.clsImagenInicio .clsDescripcionInicio{
+		background: #000;
+		position: absolute;
+		width: 580px;
+		height: 360px;
+		/* colocamos la capa abajo del contenedor (para que no se vea) */
+		top: 580px;
+		/* inicialmente la descripcion va a estar rotada 90 grados*/
+		-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+					transform: rotate(90deg);
+		/* definimos las transiciones */
+		-webkit-transition: all 1s ease-in;
+			-moz-transition: all 1s ease-in;
+				-o-transition: all 1s ease-in;
+					transition: all 1s ease-in;
+		/* la opacidad inicial sera cero */
+		opacity: 0;
+		border-radius: 5px;
+	}
+		.clsImagenInicio .clsDescripcionInicio *{
+			padding: 10px;
+		}
+	.clsImagenInicio:hover .clsDescripcionInicio{
+		/* rotamos la descripcion a cero grados */
+		-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+					transform: rotate(0deg);
+		/* colocamos su opacidad en 70% */
+		opacity: .8;
+		/* subimos la capa completamente */
+		top: 0;
+	}
+
+
+
+
+#footer {
+background: #dddddd;
+color: #000;
+text-align: center;
+width: 1024px;
+padding: 5px;
+overflow: hidden;
+clear: both;
+}
+
+.top {height:160px;padding-top:20px}
+#content {width:100%;background:#DFDDDD}
+.cont_top {background:url(../img/cont_top.png) left top no-repeat;height:10px;width:100%}
+.cont_bot {background:url(../img/cont_bot.png) left bottom no-repeat;height:10px;width:100%}
+.cont_home {padding:0px 20px 0px 20px}
+.home_box {float:left;width:250px;text-align:justify;}
+.read_l {font-size:16px;color:#DDDDDD;text-decoration:none;padding-right:2px;background:url(../img/read.jpg) left top no-repeat;display:block;height:17px;line-height:17px;width:66px;padding:0;text-align:center;float:left}
+.read_l:hover {font-size:16px;text-decoration:underline}
+
+
+@-webkit-keyframes cintaInformativa {
+	from {
+	margin-left: 100%;
+	}
+	to {
+	margin-left: -150%;
+	}
+}
+
+@-moz-keyframes cintaInformativa {
+	from {
+	margin-left: 100%;
+	}
+	to {
+	margin-left: -150%;
+	}
+}
+
+@-ms-keyframes cintaInformativa {
+	from {
+	margin-left: 100%;
+	}
+	to {
+	margin-left: -150%;
+	}
+}
+
+@-o-keyframes cintaInformativa {
+	from {
+	margin-left: 100%;
+	}
+	to {
+	margin-left: -150%;
+	}
+}

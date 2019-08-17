@@ -1,0 +1,53 @@
+﻿/*#w1 {
+	background-image: url(../img/fondo.png);
+}*/
+
+#mapa {
+	background-color: #FAF0E6;
+}
+
+#mapa1 {
+	background-color: #DCDCDC;
+}
+
+#le-mapa {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#w1-detail {
+	background-color: #FAF0E6;
+}
+
+#w1-servicio {
+	background-color: #FAF0E6;
+}
+
+#contacto {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#presen-contacto {
+	background-color: #FAF0E6;
+}
+
+#presen-nos {
+	background-color: #FAF0E6;
+}
+
+#trainer-list-1 {
+	background-color: #FAF0E6;
+}
+
+#trainer-list-2 {
+	background-color: #F7DBDB;
+}
+
+#trainer-list-3 {
+	background-color: #DCDCDC;
+}
+
+#trainer-list-4 {
+	background-color: #DFBFBF;
+}
